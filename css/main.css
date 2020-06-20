@@ -38,6 +38,23 @@ img {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link-decoration {
+  display: block;
+  margin-top: 0;
+  text-decoration: none;
+}
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,23 +73,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.link-decoration {
-  display: block;
-  margin-top: 0;
   text-decoration: none;
 }
 
@@ -580,11 +580,11 @@ img {
   display: flex;
 }
 
-.enter-mail {
+.e-mail {
   margin-right: 12px;
   width: 358px;
   height: 50px;
-  padding: 0px;
+  padding: 15px 16px;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
